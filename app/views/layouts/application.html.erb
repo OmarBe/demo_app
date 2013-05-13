@@ -7,8 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="menu">
+  <ul>
+    <li><a href="../users">Users</a></li>
+    <li><a href="../microposts">Posts</a></li>
+  </ul>
+</div>
 
-<%= yield %>
-
+<div id="wrapper">
+    <%= yield %>
+</div>
 </body>
 </html>
